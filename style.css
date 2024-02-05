@@ -1,3 +1,14 @@
+.content-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px
+}
+
+header {
+    text-align: center;
+    background-color: aquamarine border: 5px chartreuse
+}
+
 figure {
     float: right;
     /*border: 5px solid rgb(46, 227, 1);
