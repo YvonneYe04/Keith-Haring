@@ -25,7 +25,7 @@ body {
 /* Breadcrumb Menu */
 
 .breadcrumbs {
-    color: white;
+    color: rgb(33, 219, 0);
     font-style: italic;
     display: inline-block;
     float: left;
@@ -37,19 +37,20 @@ body {
 
 .breadcrumbs li {
     display: inline-block;
+    margin: 0.5rem;
 }
 
 .breadcrumbs li::after {
     content: '>';
-    padding: 0 0.5em;
+    padding: 0.5em;
 }
-
+ƒ
 .breadcrumbs li:last-child::after {
     content: '';
 }
 
 .breadcrumbs a {
-    color: white;
+    color: rgb(33, 219, 0);
     text-underline-offset: 3px;
 }
 
@@ -94,7 +95,7 @@ body {
 
 .main_nav a:hover {
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: rgb(33, 219, 0); 
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
 }
