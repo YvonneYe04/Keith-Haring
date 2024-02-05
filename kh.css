@@ -75,70 +75,6 @@ body {
     margin: .5rem;
 }
 
-/* Top navigation bar */
-
-.navbar {
-    display: block;
-    width: 100%;
-    padding: 0;
-    background-color: darkgray;
-    text-align: right;
-}
-
-
-/* Breadcrumb Menu */
-
-.breadcrumbs {
-    color: white;
-    font-style: italic;
-    display: inline-block;
-    float: left;
-    padding: 0;
-    margin-left: .5rem;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-}
-
-.breadcrumbs li {
-    display: inline-block;
-}
-
-.breadcrumbs li::after {
-    content: '>';
-    padding: 0 0.5em;
-}
-
-.breadcrumbs li:last-child::after {
-    content: '';
-}
-
-.breadcrumbs a {
-    color: white;
-    text-underline-offset: 3px;
-}
-
-.breadcrumbs a:hover {
-    text-decoration: underline;
-    text-decoration-color: yellow;
-    text-decoration-thickness: 1.1em;
-    text-underline-offset: -0.9em;
-    text-decoration-skip-ink: none;
-}
-
-
-/* main navigation menu */
-
-.main_nav {
-    padding: 0;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-}
-
-.main_nav li {
-    display: inline-block;
-    margin: .5rem;
-}
-
 .main_nav a {
     text-decoration: none;
     color: white;
@@ -194,6 +130,7 @@ h1 {
     display: inline;
 }
 
+main {}
 
 section {
     clear: both;
@@ -212,8 +149,8 @@ figure {
     padding: 10px;*/
     margin-top: 0px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /*img {
@@ -223,26 +160,21 @@ figure {
 /*margin-left: auto;*/
 /*margin-right: auto;*/
 
-
-section {
-    clear: both;
-}
-
+img {}
 
 figcaption {
     font-style: italic;
     color: rgb(255, 179, 0)
 }
 
+/*figure {
+    float: left;
+    margin-left: 40px;
+}*/
+
 .The_Early_Beginings figure {
     float: left;
     margin-right: 40px;
-}
-
-
-.Art_Style figure {
-    float: left;
-    margin-left: 40px;
 }
 
 .Art_Style figure {
@@ -271,7 +203,7 @@ figcaption {
 }
 
 .Legacy_and_Impact figure {
-    float: left;
+    float: right;
     margin-right: 40px;
 }
 
