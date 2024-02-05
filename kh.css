@@ -1,0 +1,323 @@
+body {
+    color: hsl(116, 100%, 11%);
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+    font-style: light;
+}
+
+.content-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px
+}
+
+/* Top navigation bar */
+
+.navbar {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background-color: darkgray;
+    text-align: right;
+}
+
+
+/* Breadcrumb Menu */
+
+.breadcrumbs {
+    color: white;
+    font-style: italic;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+}
+
+.breadcrumbs li::after {
+    content: '>';
+    padding: 0 0.5em;
+}
+
+.breadcrumbs li:last-child::after {
+    content: '';
+}
+
+.breadcrumbs a {
+    color: white;
+    text-underline-offset: 3px;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 1.1em;
+    text-underline-offset: -0.9em;
+    text-decoration-skip-ink: none;
+}
+
+
+/* main navigation menu */
+
+.main_nav {
+    padding: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.main_nav li {
+    display: inline-block;
+    margin: .5rem;
+}
+
+/* Top navigation bar */
+
+.navbar {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background-color: darkgray;
+    text-align: right;
+}
+
+
+/* Breadcrumb Menu */
+
+.breadcrumbs {
+    color: white;
+    font-style: italic;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+}
+
+.breadcrumbs li::after {
+    content: '>';
+    padding: 0 0.5em;
+}
+
+.breadcrumbs li:last-child::after {
+    content: '';
+}
+
+.breadcrumbs a {
+    color: white;
+    text-underline-offset: 3px;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 1.1em;
+    text-underline-offset: -0.9em;
+    text-decoration-skip-ink: none;
+}
+
+
+/* main navigation menu */
+
+.main_nav {
+    padding: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.main_nav li {
+    display: inline-block;
+    margin: .5rem;
+}
+
+.main_nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.main_nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+}
+
+.main_nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.main_nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+}
+
+
+header {
+    text-align: center;
+    background-color: aquamarine border, 5px chartreuse
+}
+
+h1 {
+    /*Heading for the entire article*/
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.byline {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.2rem;
+}
+
+.author {
+    display: inline;
+}
+
+.author-title {
+    display: inline;
+}
+
+.byline .separator {
+    display: inline;
+}
+
+
+section {
+    clear: both;
+    margin-top: 60px;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+}
+
+
+figure {
+    float: right;
+    /*border: 5px solid rgb(46, 227, 1);
+    padding: 10px;*/
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*img {
+    /*border: 5px solid black;*/
+/*padding: 10px;*/
+/*display: block*/
+/*margin-left: auto;*/
+/*margin-right: auto;*/
+
+
+section {
+    clear: both;
+}
+
+
+figcaption {
+    font-style: italic;
+    color: rgb(255, 179, 0)
+}
+
+.The_Early_Beginings figure {
+    float: left;
+    margin-right: 40px;
+}
+
+
+.Art_Style figure {
+    float: left;
+    margin-left: 40px;
+}
+
+.Art_Style figure {
+    float: right;
+    margin-right: 40px;
+}
+
+.The_Subway_Drawings figure {
+    float: right;
+    margin-left: 40px;
+}
+
+.Rise_to_Frame figure {
+    float: left;
+    margin-right: 40px;
+}
+
+.Collaborations_and_Influence figure {
+    float: right;
+    margin-left: 40px;
+}
+
+.The_Pop_Shop figure {
+    float: left;
+    margin-right: 40px;
+}
+
+.Legacy_and_Impact figure {
+    float: left;
+    margin-right: 40px;
+}
+
+.Friendships_that_Shaped_the_Artist figure {
+    float: left;
+    margin-right: 40px;
+}
+
+.A_Circle_of_Creativity_and_Activism figure {
+    float: left;
+    margin-right: 40px;
+}
+
+
+.Book_Reference figure {
+    float: left;
+    margin-right: 40px;
+
+}
+
+.Book_Reference p {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.3em;
+    color: hsl(116, 98%, 25%);
+}
+
+
+ul {
+    font-style: italic;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: lightgray;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+h1 {
+    font-family: "Quicksand";
+    color: rgb(33, 219, 0)
+}
